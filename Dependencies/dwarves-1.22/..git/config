@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "ffs"]
+	url = https://github.com/acmel/dwarves.git
+	fetch = +refs/heads/*:refs/remotes/ffs/*
+[submodule "lib/bpf"]
+	active = true
+	url = https://github.com/libbpf/libbpf

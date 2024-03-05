@@ -1,0 +1,9 @@
+Code your policies however you want and just include usm.h, while putting the resulting file inside impl/alloc (for the alloc. policies, only ones available for now).
+
+make
+sudo ./project-2 examples/project-2/cfg/alloc_policy_assignment_strategy.cfg
+sudo LD_PRELOAD=./usmTagger ./littleTest 1000
+
+Make's TBD at root.
+Just the location of the config file is to be given.
+littleTest's provided in the repo..
